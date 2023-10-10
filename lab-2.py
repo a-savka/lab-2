@@ -1,13 +1,13 @@
 goots = []
 shops = ["Ашан" , "Карусель" , "Хз"]
 posts = []
-isTrue = True
-while isTrue == True:
+is_true = True
+while is_true == True:
    z = input(f"Введите название товара \n")
    if z != '':
      goots.append(z)
    else:
-    isTrue = False
+    is_true = False
 
 
 for goos in goots:
